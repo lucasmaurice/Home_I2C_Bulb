@@ -1,0 +1,55 @@
+{
+  "name": "homebridge-fake-rgb",
+  "version": "0.0.3",
+  "description": "Fake RGB Bulb plugin for homebridge: https://github.com/nfarina/homebridge",
+  "license": "MIT",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "author": {
+    "name": "Edgar Toll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/edjopato/homebridge-fake-rgb.git"
+  },
+  "dependencies": {
+    "colorsys": "^1.0.9"
+  },
+  "gitHead": "0023def4ec420915f1896860b05c322ec41e0d8d",
+  "bugs": {
+    "url": "https://github.com/edjopato/homebridge-fake-rgb/issues"
+  },
+  "homepage": "https://github.com/edjopato/homebridge-fake-rgb#readme",
+  "_id": "homebridge-fake-rgb@0.0.3",
+  "scripts": {},
+  "_shasum": "7371121e6101b1c90cbccb27946641653fdf987d",
+  "_from": "homebridge-fake-rgb@latest",
+  "_npmVersion": "3.10.5",
+  "_nodeVersion": "6.3.1",
+  "_npmUser": {
+    "name": "edjopato",
+    "email": "edjopato@gmail.com"
+  },
+  "dist": {
+    "shasum": "7371121e6101b1c90cbccb27946641653fdf987d",
+    "tarball": "https://registry.npmjs.org/homebridge-fake-rgb/-/homebridge-fake-rgb-0.0.3.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "edjopato",
+      "email": "edjopato@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/homebridge-fake-rgb-0.0.3.tgz_1469377092344_0.7467917331960052"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/homebridge-fake-rgb/-/homebridge-fake-rgb-0.0.3.tgz",
+  "readme": "ERROR: No README data found!"
+}

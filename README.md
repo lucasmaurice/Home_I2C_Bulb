@@ -27,8 +27,8 @@ Configuration parameters:
 - "name": "PUT THE NAME OF YOUR TEST BULB HERE",
 
 Look for a sample config in [config.json example](https://github.com/edjopato/homebridge-fake-rgb/blob/master/config-sample.json)
-# Home_I2C_Bulb :
-
+# Install Home_I2C_Bulb :
+Just run this command in this repository folder.
 ```bash
 sudo cp -R * /usr/local/lib/node_modules/homebridge-fake-rgb
 ```

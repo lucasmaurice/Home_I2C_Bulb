@@ -61,6 +61,5 @@ byte bValue = bMessage[THEKEY];
 
 ## Wiring Raspberry and Arduino
 Wire Raspberry and Arduino as below :
-```
+
 ![alt text](https://github.com/lucasmaurice/Home_I2C_Bulb/blob/master/ArduinoCode/Wiring_Server.png "Wiring schematics")
-```

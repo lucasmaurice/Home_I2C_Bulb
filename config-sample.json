@@ -1,17 +1,23 @@
 {
-    "bridge": {
-        "name": "Homebridge",
-        "username": "CC:22:3D:E3:CE:30",
-        "port": 51826,
-        "pin": "031-45-154"
-    },
+  "bridge": {
+     "name": "Homebridge",
+     "username": "CC:22:3D:E3:CE:30",
+     "port": 51826,
+     "pin": "031-45-154"
+  },
 
-    "description": "Bla Bla Bla",
+  "description": "Bla Bla Bla",
 
-    "accessories": [{
+  "accessories": [
+     {
         "accessory": "Fake-RGB",
-        "name": "RGB Bulb"
-    }],
+        "name": "Bulb 2",
+        "address": 8,
+        "bulbNbr": 2,
+        "radioNbr": 2
+     }
+
+  ],
 
     "platforms": []
 }

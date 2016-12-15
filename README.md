@@ -17,14 +17,21 @@ Remember to configure the plugin in config.json in your home directory inside th
 ```json
 "accessories": [{
     "accessory": "Fake-RGB",
-    "name": "RGB Bulb"
+    "name": "RGB Bulb",
+    "address": 8,
+    "bulbNbr": 2,
+    "radioNbr": 2
 }]
 ```
 
 Configuration parameters:
 
 - "accessory": "Fake-RGB",
-- "name": "PUT THE NAME OF YOUR TEST BULB HERE",
+- "name": Name of the bulb _(default value : 8)_, 
+- "address": Adress I2C of the Arduino,
+- "bulbNbr": ID of the bulb,
+- "radioNbr": Adress RF if you use RF receptors _(If you dont use RF module, set to 0)_
+
 
 Look for a sample config in [config.json example](https://github.com/edjopato/homebridge-fake-rgb/blob/master/config-sample.json)
 # Install Home_I2C_Bulb :

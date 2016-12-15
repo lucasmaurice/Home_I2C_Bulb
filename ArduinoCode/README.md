@@ -58,3 +58,7 @@ In order to access the data just use the following command :
 ```cpp
 byte bValue = bMessage[THEKEY];
 ```
+
+## Wiring Raspberry and Arduino
+Wire Raspberry and Arduino as below :
+!(Wiring)(Wiring_Server.png)

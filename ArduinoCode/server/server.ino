@@ -14,6 +14,11 @@
 #define KEYRADIO 3
 #define KEYBULB 4
 
+//PIN NUMBER FOR BULB 1
+#define REDPIN 9
+#define GREENPIN 10
+#define BLUEPIN 11
+
 int iNewRed = 0;
 int iNewGreen = 0;
 int iNewBlue = 0;
@@ -22,9 +27,9 @@ void setup() {
   Wire.begin(8);                // join i2c bus with address #8
   Wire.onReceive(receiveEvent); // register event
   Serial.begin(9600);           // start serial for output
-  pinMode(9, OUTPUT);
-  pinMode(10, OUTPUT);
-  pinMode(11, OUTPUT);
+  pinMode(REDPIN, OUTPUT);
+  pinMode(GREENPIN, OUTPUT);
+  pinMode(BLUEPIN, OUTPUT);
 }
 
 void loop() {
@@ -34,26 +39,26 @@ void loop() {
 
   if(iRed < iNewRed - 2){
     iRed += 3;
-    analogWrite(9, iRed);
+    analogWrite(REDPIN, iRed);
   }else if(iRed > iNewRed + 2){
     iRed -= 3;
-    analogWrite(9, iRed);
+    analogWrite(REDPIN, iRed);
   }
   
   if(iGreen < iNewGreen - 2){
     iGreen += 3;
-    analogWrite(10, iGreen);
+    analogWrite(GREENPIN, iGreen);
   }else if(iGreen > iNewGreen + 2){
     iGreen -= 3;
-    analogWrite(10, iGreen);
+    analogWrite(GREENPIN, iGreen);
   }
   
   if(iBlue < iNewBlue - 2){
     iBlue += 3;
-    analogWrite(11, iBlue);
+    analogWrite(BLUEPIN, iBlue);
   }else if(iBlue > iNewBlue + 2){
     iBlue -= 3;
-    analogWrite(11, iBlue);
+    analogWrite(BLUEPIN, iBlue);
   }
   delay(30);
 }

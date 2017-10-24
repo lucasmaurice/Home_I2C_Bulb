@@ -45,3 +45,6 @@ Remember to configure the plugin in config.json in your home directory inside th
 
 
 Look for a sample config in [config-sample.json example](https://github.com/lucasmaurice/Home_I2C_Bulb/blob/master/config-sample.json)
+
+### TODO:
+Will need to change I2C to Serial communication, for support more server platforms.
